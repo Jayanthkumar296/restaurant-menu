@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a class="w3-bar-item w3-button">Home</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a class="w3-bar-item w3-button">About</a>
+      <a class="w3-bar-item w3-button">Menu</a>
+      <a class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://images.indulgexpress.com/uploads/user/ckeditor_images/article/2020/9/16/Kathal_Biryani.jpg?w=400&dpr=2.6" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-text-white w3-xlarge">Spicy & Delicious</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://media.istockphoto.com/photos/delicious-spicy-chicken-biryani-indian-or-pakistani-ramzan-food-on-picture-id1319620179?k=20&m=1319620179&s=612x612&w=0&h=minxYMtuTzri0Bg-ZsMoDuqAT3UEy2qvK4W7yCRi0M4=" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Us</h1><br>
+      <h5 class="w3-center">Tradition since 1963</h5>
+      <p class="w3-large">We welcome you to sit back, unwind and appreciate the lovely sights and hints of the ocean while our best gourmet expert sets you up a scrumptious dinner utilizing the best and freshest ingredients.Our legacy comes from The parent  Restaurant which was built up in 1963.</p>
+      <p class="w3-large w3-text-blue-grey w3-hide-medium">Service, in short, is not what you do, but who you are. It's a way of living that you need to bring to everything you do if you're to bring it to your customer interactions."
+Enjoy our dazzling dishes and make the most of your eating background with us!</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Royal Chicken Biryani</h4>
+      <p class="w3-text-grey">An Authentic Hyderabadi Biryani where succulent Chicken Piece is marinated with a blend of spices</p><br>
+    
+      <h4>Chicken Dum Biryani</h4>
+      <p class="w3-text-grey">An Authentic Hyderabadi Biryani where succulent Chicken Piece is marinated with a blend of spices,finest long grain,basamati Rice,Saffron and Aromatic Ghee.</p><br>
+    
+      <h4>Chicken shawaram</h4>
+      <p class="w3-text-grey">A delicious combination of donar kabab grilled chicken stirpes with salad and mayonnaise.</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>kaju Paneer Biryani</h4>
+      <p class="w3-text-grey">One of the best veg item,A Delicious combination of the paneer and the cashew</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://media.istockphoto.com/photos/various-indian-dishes-featuring-rogan-josh-chicken-tikka-masala-picture-id1168659055?k=20&m=1168659055&s=612x612&w=0&h=iEmS8Z8-0hldHqcnezEMXNm37qJSmv8Vv1J9HCDS_lM=" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Dwaraka nagar, 5th lane , 530016 visakhapatnam </b></p>
+    <p  class="w3-large"> You can also contact us by </p><p>phone : 00553123-2323</p><p> email : spicydeliciousfoods@jay.com</p><p> you can send us a message to : 9666482222</p>
+ 
+  </div>
+  
+
+</body>
+</html>
